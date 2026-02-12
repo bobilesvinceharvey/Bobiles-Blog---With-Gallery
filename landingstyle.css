@@ -65,7 +65,7 @@ h1 {
 }
 .navbar a:hover{
     background-color:#90EE90;
-    color:#097969;
+    color:#094d31e8;
     font-weight:bold;
     
 }
@@ -164,4 +164,5 @@ h1 {
     border-radius: 12px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.35);
     margin-right: 40px;
+
 }
