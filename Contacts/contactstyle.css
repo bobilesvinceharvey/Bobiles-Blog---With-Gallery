@@ -1,0 +1,111 @@
+header {
+    background-color: #094d31;
+    color: #ffffff;
+    padding: 30px 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+body {
+  background-color: #e9fef5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    margin: 40px 50px 60px;
+    flex: 1;
+}
+
+footer {
+    background-color: #094d31;
+    padding: 30px 0px 25px 0px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px 80px 0px 0px;
+    display: flex;
+}
+
+.navbar a {
+    color: azure;
+    text-decoration: none;
+    padding: 8px 14px;
+    display: block;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.navbar a:hover {
+    background-color: #90EE90;
+    color: #094d31e8;
+    font-weight: bold;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.site-header .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 100px;
+}
+
+.contact-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(9, 77, 49, 0.15);
+    min-width: 220px;
+    max-width: 280px;
+}
+
+.contact-card a {
+    color: #094d31;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-card a:hover {
+    color: #097969;
+}
